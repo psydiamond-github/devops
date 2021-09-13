@@ -1,5 +1,4 @@
 pipeline {
-agent {label1 'test' }
 stages {
 	stage('build') {
 		steps {
