@@ -1,0 +1,13 @@
+pipeline {
+	stage(build) {
+		steps {
+			echo "building application"
+		}
+	}
+	stage() {
+		steps {
+			git url: '/home/jenkins/devops'
+		}
+	}
+}
+
