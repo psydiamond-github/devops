@@ -1,8 +1,10 @@
 pipeline {
-	stage(build) {
+agent {label1 "test" }
+stages {
+	stage('build') {
 		steps {
 			echo "building application"
 		}
 	}
 }
-
+}
